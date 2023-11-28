@@ -6,7 +6,7 @@
 /*   By: ozahdi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 20:50:27 by ozahdi            #+#    #+#             */
-/*   Updated: 2023/11/15 09:39:42 by ozahdi           ###   ########.fr       */
+/*   Updated: 2023/11/17 17:56:42 by ozahdi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ void	*ft_memset(void *s, int c, size_t len)
 		u[i] = (unsigned char)c;
 		i++;
 	}
-	return (s);
+	return (s); 
 }
