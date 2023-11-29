@@ -6,7 +6,7 @@
 #    By: ozahdi <ozahdi@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/08 17:12:00 by ozahdi            #+#    #+#              #
-#    Updated: 2023/11/29 12:01:11 by ozahdi           ###   ########.fr        #
+#    Updated: 2023/11/29 12:04:26 by ozahdi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,17 +29,17 @@ OBJS	=	$(SRCS:.c=.o)
 
 OBJSB	=	$(SRCSB:.c=.o)
 
+
 all		:	$(NAME)
 
 $(NAME)	:	$(OBJS)
 		ar rc $(NAME) $(OBJS)
 
-%.o		: %.c  libft.h
-		$(CC) $(CFLAGS) -c $< -o $@
-
 bonus	:	$(OBJSB)
 		ar rc $(NAME) $(OBJSB)
 
+%.o		: %.c  libft.h
+		$(CC) $(CFLAGS) -c $< -o $@
 clean	:
 		$(RM) $(OBJS) $(OBJSB)
 
