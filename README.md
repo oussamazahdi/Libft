@@ -73,7 +73,6 @@ The bonus part contains functions for linked list manipulation:
 | ft_lstdelone   | Delete an element from the list                   |
 | ft_lstclear    | Delete a sequence of elements from the list       |
 | ft_lstiter     | Apply a function to each element in the list      |
-| ft_lstmap      | Apply a function to each element and create a new list |
 
 ## 📋 Requirements
 
