@@ -157,7 +157,7 @@ This project is part of the 42 School curriculum. Feel free to use this code as 
 
 ## 👤 Author
 
-- Your Name (@yourusername)
+- Oussama Zahdi (@oussamazahdi)
 
 ## 💬 Acknowledgements
 
